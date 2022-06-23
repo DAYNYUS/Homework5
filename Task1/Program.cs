@@ -3,14 +3,14 @@
 // ВАЖНО!!! УЧИТЫВАТЬ оформление и названия переменных
 
 int[] array = new int[4];
-FillArrayRandomNumbers(array);
-PrintArray(array);
 int count = 0;
 for (int i = 0; i < array.Length; i++)
 {
     if(array[i]%2 == 0) count++; 
 }
 
+FillArrayRandomNumbers(array);
+PrintArray(array);
 Console.WriteLine($"В данном массиве количество четных чисел равно {count}");
 
 
